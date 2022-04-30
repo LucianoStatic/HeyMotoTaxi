@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/tRuaAdapter"
+        android:layout_width="271dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_near"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/amiko"
+        android:text="Rua Ótavio Mangabeira"
+        android:textColor="#646265"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tDinheiroAdapter"
+        android:layout_width="272dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_dinheiro"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/amiko"
+        android:text="5,00"
+        android:textColor="#646265"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tNomeAdapter" />
+
+    <TextView
+        android:id="@+id/tStatusAdapter"
+        android:layout_width="272dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="52dp"
+        android:drawableLeft="@drawable/ic_locomover"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/amiko"
+        android:text="Encerrada"
+        android:textColor="#646265"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tNomeAdapter" />
+
+    <TextView
+        android:id="@+id/tNomeAdapter"
+        android:layout_width="272dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_personagem"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/amiko"
+        android:text="Adriano Souza"
+        android:textColor="#646265"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tRuaAdapter" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="72dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tDinheiroAdapter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
